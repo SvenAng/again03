@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/*
+Individuell css för knappar
+Drupals menu genererar en css-class vilkens namn baseras på länkens titel, åäö ersätts av bindestreck. 
+Denna class används används för individualisering av knapparna.
+För att uppnå IE 7-8-9 kompatibilitet har bakgrundsbilder med fast bredd använts i knapparna.
+
+Detta fungerar bra men skapar mycket arbete då en ny menylänks skall skapas i Drupal.
+Lägger man till en ny knapp så måste en ny bakgrundsbild skapas med rätt längd och nya css klasser skrivas nedan.
+
+Bakgrundsbilderna till knapparna läggs i mappen sites/all/themes/again01/css/img
+	
+*/
+
+/* ============ Huvudnavigering ============ */
+
+/*Generellt*/
+/*Grundinställningar*/
+.not-front #main-menu ul li a,
+.not-front #main-menu ul li a {
+	/*opacity: 0.55!important;*/
+}
+
+#main-menu ul li{
+	
+	padding: 0;
+}
+#main-menu ul li{
+	margin: 12px 1px 30px 5px;
+	padding: 0;
+	list-style: none !important;
+	list-style-image: none;
+}
+#main-menu ul li a{
+	opacity: 0.6;
+	font: normal 10px arial;
+	text-decoration: none;
+	padding: 10px 15px;
+	color: #000000;
+	text-transform: uppercase;
+	display: inline;
+	position: relative;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+
+}
+
+#main-menu ul li a:visited,
+#main-menu ul li a:visited{
+	color: #000;
+}
+
+#main-menu ul li a.active-trail,
+#main-menu ul li a.active,
+.sidebar ul li a.active-trail,
+sidebar ul li a.active{
+	opacity: 1;
+	z-index: 1000;
+	border: 3px solid #fff !important;
+}    
+
+/*#main-menu .region-inner,
+#main-menu .region-inner{
+	padding-top: 20px;
+}*/  
+
+
+
+
+/*Avlopp Kretslopp*/
+/*Näringen tillbaka*/
+#main-menu ul li.menu-987 a, 
+#main-menu ul li.menu-1437 a{
+	background: #f4dd00;
+	border: 3px solid #f4dd00;
+}
+#main-menu ul li.menu-987 a:hover,
+#main-menu ul li.menu-987 a.active-trail,
+#main-menu ul li.menu-1437 a:hover,
+#main-menu ul li.menu-1437 a.active-trail{
+	background: #f4dd00;
+}
+/*Länkar*/
+#main-menu ul li.menu-992 a{
+	background: #70a1d6;
+	top: 10px;
+	left:  -30px;
+	border: 3px solid #70a1d6;
+}
+#main-menu ul li.menu-992 a:hover,
+#main-menu ul li.menu-992 a.active-trail{
+	background: #70a1d6;
+}
+/*teknik*/
+#main-menu ul li.menu-990 a,
+#main-menu ul li.menu-1445 a{
+	background: #e7cbd5;
+	z-index: 301;
+	border: 3px solid #e7cbd5;
+}
+#main-menu ul li.menu-990 a:hover,
+#main-menu ul li.menu-990 a.active-trail,
+#main-menu ul li.menu-1445 a:hover,
+#main-menu ul li.menu-1445 a.active-trail{
+	background: #e7cbd5;
+}
+/*Ny gödning*/
+#main-menu ul li.menu-989 a,
+#main-menu ul li.menu-1444 a{
+	background: #9cba7b;
+	border: 3px solid #9cba7b;
+}
+#main-menu ul li.menu-989 a:hover,
+#main-menu ul li.menu-989 a.active-trail,
+#main-menu ul li.menu-1444 a:hover,
+#main-menu ul li.menu-1444 a.active-trail{
+	background: #9cba7b;
+}
+/*Om oss*/
+#main-menu ul li.menu-993 a,
+#main-menu ul li.menu-1436 a{
+	background: #e9ae00;
+	z-index: 302;
+	border: 3px solid #e9ae00;
+	left:  -30px;
+	/*top: -40;*/
+}
+#main-menu ul li.menu-993 a:hover,
+#main-menu ul li.menu-993 a.active-trail,
+#main-menu ul li.menu-1436 a:hover,
+#main-menu ul li.menu-1436 a.active-trail{
+	background: #e9ae00;
+}
+/*Nyheter*/
+#main-menu ul li.menu-1133 a{
+	background: #f41e26;
+	border: 3px solid #f41e26;	
+	top: -13px;
+	left: 0px;
+	z-index: 900;
+}
+#main-menu ul li.menu-1133 a:hover,
+#main-menu ul limenu-1133 a.active-trail{
+	background: #f41e26;
+}
+
+#main-menu ul li.menu-988 a,
+#main-menu ul li.menu-1438 a{
+	background: #c8ae00;
+	top: 10px;
+	border: 3px solid #c8ae00;
+}
+
+#main-menu ul li.menu-988 a.active-trail,
+#main-menu ul li.menu-1438 a.active-trail{
+	background: #c8ae00;
+}
+
+   
+/* ========== Vänster Avlopp och kretslopp ================ */
+
+/*Enfamiljshus*/
+#main-menu .enfamiljshus a{
+	background: url(img/kn_enfamiljshus_up.png) no-repeat center center;
+}
+#main-menu ul li.enfamiljshus a:hover,
+#main-menu ul li.enfamiljshus a.active-trail{
+	background: url(img/kn_enfamiljshus_over.png) no-repeat center center;
+}
+/*Flerbostadshus*/
+#main-menu .flerbostadshus a{
+	background: url(img/kn_flerfamiljshus_up.png) no-repeat center center;
+}
+#main-menu ul li.flerbostadshus a:hover,
+#main-menu ul li.flerbostadshus a.active-trail{
+	background: url(img/kn_flerfamiljshus_over.png) no-repeat center center;
+}
+/*Kontakta oss*/
+#main-menu ul li.kontakta-oss a{
+	background: url(img/kn_kontaktaoss_up.png) no-repeat center center;
+}
+#main-menu ul li.kontakta-oss a:hover,
+#main-menu ul li.kontakta-oss a.active-trail{
+	background: url(img/kn_kontaktaoss_over.png) no-repeat center center;
+}
+
+/* ================== Mobiltelefon anpassningar ========================*/
+
+
+
+  
+
+
