@@ -91,13 +91,19 @@ h2 a{
 	color: #000;
 }
 .views-row a{
-	color: $again-text-body-color;
+//	color: $again-text-body-color;
 }
+//$fusk-hover: scale-color($anchor-font-color, $lightness: -14%) !default;
+.views-row a:hover{
+    color: $anchor-font-color-hover;
+}
+
+
 .colorbox img{
 	margin-bottom: 0.6rem;
 }
 .views-row a:hover{
-	color: #000;
+//	color: #000;
 }
 
 

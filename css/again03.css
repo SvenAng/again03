@@ -319,28 +319,23 @@ h2 a {
   color: #000;
 }
 
-/* line 93, ../scss/base/_init.scss */
-.views-row a {
-  color: #373737;
+/* line 97, ../scss/base/_init.scss */
+.views-row a:hover {
+  color: #38689c;
 }
 
-/* line 96, ../scss/base/_init.scss */
+/* line 102, ../scss/base/_init.scss */
 .colorbox img {
   margin-bottom: 0.6rem;
 }
 
-/* line 99, ../scss/base/_init.scss */
-.views-row a:hover {
-  color: #000;
-}
-
 /*offcanvas*/
-/* line 106, ../scss/base/_init.scss */
+/* line 112, ../scss/base/_init.scss */
 .right-off-canvas-menu {
   background: #222222;
 }
 
-/* line 109, ../scss/base/_init.scss */
+/* line 115, ../scss/base/_init.scss */
 .right-off-canvas-menu a,
 .right-off-canvas-menu li span.nolink {
   color: #FFFFFF;
@@ -349,18 +344,18 @@ h2 a {
   /*font-family: $font-family-sans-serif;*/
 }
 
-/* line 116, ../scss/base/_init.scss */
+/* line 122, ../scss/base/_init.scss */
 .right-off-canvas-menu ul {
   margin-left: 0;
   margin-bottom: 0;
 }
 
-/* line 120, ../scss/base/_init.scss */
+/* line 126, ../scss/base/_init.scss */
 .right-off-canvas-menu ul li {
   list-style-type: none;
 }
 
-/* line 124, ../scss/base/_init.scss */
+/* line 130, ../scss/base/_init.scss */
 .right-off-canvas-menu ul li a {
   width: 100%;
   display: block;
@@ -374,19 +369,19 @@ h2 a {
   line-height: 1.2rem;
 }
 
-/* line 136, ../scss/base/_init.scss */
+/* line 142, ../scss/base/_init.scss */
 .right-off-canvas-menu ul li .active-trail.active {
   background: #4179b5;
 }
 
-/* line 139, ../scss/base/_init.scss */
+/* line 145, ../scss/base/_init.scss */
 .right-off-canvas-menu li.expanded ul li a {
   /*color: $melica-green-text;*/
   padding-left: 1.5rem;
   /*font-weight: bold;*/
 }
 
-/* line 144, ../scss/base/_init.scss */
+/* line 150, ../scss/base/_init.scss */
 .right-off-canvas-menu li.expanded ul li ul li a {
   color: #fff;
   padding-left: 2rem;
@@ -394,38 +389,38 @@ h2 a {
   font-style: normal;
 }
 
-/* line 150, ../scss/base/_init.scss */
+/* line 156, ../scss/base/_init.scss */
 .right-off-canvas-menu li span.nolink {
   display: none;
 }
 
 /*Frontpage\*/
-/* line 156, ../scss/base/_init.scss */
+/* line 162, ../scss/base/_init.scss */
 .flexslider {
   background: none;
   border: none;
 }
 
-/* line 160, ../scss/base/_init.scss */
+/* line 166, ../scss/base/_init.scss */
 .flexslider h1 {
   font: 30px/32px "Maven Pro",sans-serif;
   margin-bottom: 15px;
   margin-top: 0;
 }
 
-/* line 166, ../scss/base/_init.scss */
+/* line 172, ../scss/base/_init.scss */
 .language-link.locale-untranslated {
   display: none;
 }
 
-/* line 171, ../scss/base/_init.scss */
+/* line 177, ../scss/base/_init.scss */
 .iframecontainer {
   width: 100%;
   padding-bottom: 75%;
   position: relative;
 }
 
-/* line 176, ../scss/base/_init.scss */
+/* line 182, ../scss/base/_init.scss */
 .iframecontainer iframe {
   min-width: 100%;
   width: 10px;

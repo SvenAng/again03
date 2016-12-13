@@ -116,12 +116,12 @@ $aluminum    : #999999;
 // $black       : #000000;
 
 // We use these as default colors throughout
-//$primary-color: #333;
-// $secondary-color: #e7e7e7;
-// $alert-color: #f04124;
-// $success-color: #43AC6A;
-// $warning-color: #f08a24;
-// $info-color: #a0d3e8;
+$primary-color: #4179b5;
+ $secondary-color: #e7e7e7;
+ $alert-color: #f04124;
+ $success-color: #43AC6A;
+ $warning-color: #f08a24;
+ $info-color: #a0d3e8;
 @import url(http://fonts.googleapis.com/css?family=Noto+Serif|Ubuntu|Maven+Pro:400);
 // We use these to define default font stacks
 $font-family-sans-serif: "Ubuntu", sans-serif !default;
@@ -261,7 +261,7 @@ $body-font-family: $font-family-serif;
 // $anchor-text-decoration: none;
 // $anchor-text-decoration-hover: none;
 // $anchor-font-color: $primary-color;
-// $anchor-font-color-hover: scale-color($primary-color, $lightness: -14%);
+$anchor-font-color-hover: scale-color($primary-color, $lightness: -14%);
 
 // We use these to style the <hr> element
 // $hr-border-width: 1px;
