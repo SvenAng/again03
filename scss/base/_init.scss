@@ -6,26 +6,25 @@ $body-font-color: #666;
 .node-title{
 	margin-bottom: 1rem;
 }
-
 #main-menu{
 	
 	margin-top: 2.4rem;
 	padding-right: 0.5rem;
 	/*padding-top: 0.9rem;*/
-	
 }
 #main-menu ul{
 	height: 3rem;
 	overflow: visible;
 }
 #main-menu li a{
-	/*padding: 10px 15px;
+	/*padding: 10px 15px; 
 	border-radius: 20px;
 	background: $primary-color;
 	color: $white;
 	font-size: 10px;
 	text-transform: uppercase;*/
 }
+
 #main-menu li{
 	/*margin-left: 1rem;*/
 }
@@ -188,3 +187,6 @@ h2 a{
     left: 0;
 }
 
+tbody{
+  border: none;
+}
