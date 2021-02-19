@@ -3,7 +3,10 @@
 /**
  * Implements template_preprocess_html().
  */
-function STARTER_preprocess_html(&$variables) {
+function again03_preprocess_html(&$variables) {
+    //$path = drupal_get_path('theme','again03');
+    // $variables['scripts'] .= '<script src="' . $path . '/mburger/mburger.js"></script>';
+    //drupal_add_js($path.'/mburger/mburger.js', array('type' => 'file', 'scope' => 'footer'));
 }
 
 /**

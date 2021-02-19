@@ -48,7 +48,8 @@
 		
 		<nav class="tab-bar large-1 columns medium-1 small-2 hide-for-large-up">
 			<!--<section class="right-small">-->
-				<a class="right-off-canvas-toggle menu-icon" href="#" ><span></span></a>
+				<!-- <a class="right-off-canvas-toggle menu-icon" href="#" ><span></span></a> -->
+				<a class="right-off-canvas-toggle mburger mburger--collapse" href="#" ><b></b><b></b><b></b></a>
 			<!--</section>-->
 		</nav>
        <!-- <?php if ($site_name): ?>
